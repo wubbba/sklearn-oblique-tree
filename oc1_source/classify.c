@@ -44,7 +44,7 @@ extern char misclassified_data[LINESIZE];
 /*			print_point              			*/	
 /* Is called by modules :	main (mktree.c)				*/
 /************************************************************************/
-void classify (points,no_of_points,root,output)
+classify (points,no_of_points,root,output)
      POINT **points;
      int no_of_points;
      char *output;
@@ -105,7 +105,7 @@ void classify (points,no_of_points,root,output)
 /* Is called by modules : 	classify				*/
 /*				main (gendata.c)			*/
 /************************************************************************/
-void print_point(out,cur_point,unlabeled)
+ print_point(out,cur_point,unlabeled)
      FILE *out;
      POINT *cur_point;
      int unlabeled;
