@@ -105,7 +105,7 @@ classify (points,no_of_points,root,output)
 /* Is called by modules : 	classify				*/
 /*				main (gendata.c)			*/
 /************************************************************************/
-print_point(out,cur_point,unlabeled)
+void print_point(out,cur_point,unlabeled)
      FILE *out;
      POINT *cur_point;
      int unlabeled;
