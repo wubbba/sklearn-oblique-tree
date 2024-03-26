@@ -1,4 +1,4 @@
-C       = /usr/bin/gcc
+C       = /opt/homebrew/bin/gcc-13
 CFLAGS  = -O0 -g
 LIBS    = -lm
 
