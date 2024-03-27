@@ -24,7 +24,7 @@ extensions = [
                                                         "oc1_source/tree_util.c"
                                                         ],
                include_dirs=[numpy.get_include(), '.'],
-               extra_compile_args=["-w"]
+               extra_compile_args=["-w","-mmacosx-version-min=10.9"]
 
      )
     ]
