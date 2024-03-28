@@ -1,5 +1,5 @@
 C       = /opt/homebrew/bin/gcc-13
-CFLAGS  = -O0 -g
+CFLAGS  = -O0 -g -mmacosx-version-min=10.9
 LIBS    = -lm
 
 SRC     = util.c tree_util.c load_data.c perturb.c \
